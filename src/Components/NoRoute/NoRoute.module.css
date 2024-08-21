@@ -1,0 +1,7 @@
+.noroute_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  flex-direction: column;
+}

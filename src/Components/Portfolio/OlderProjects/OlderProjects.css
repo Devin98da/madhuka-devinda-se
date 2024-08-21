@@ -1,0 +1,117 @@
+.olderProjects__container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    /* width: 40rem; */
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.olderProject__item {
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 40rem;
+
+}
+
+.olderProject__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.olderProject__item-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.olderProject__item-image img {
+    width: 100%;
+    height: 100%;
+    /* display: none; */
+    object-fit: cover;
+}
+
+.olderProject__item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem;
+    font-weight: 400;
+}
+
+.olderProject__item p {
+    margin: 1rem 0 1rem;
+    font-weight: 300;
+}
+
+/* .olderProject__item li {} */
+
+.olderProject__item-cta {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+/*==================MEDIA QUARIES (MEDIUM DEVICES)  ======================*/
+@media screen and (max-width: 1024px) {
+    .olderProject__container {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.2rem;
+    }
+    .olderProject__item {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .olderProject__item-image {
+        width: 50%;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        height: 50%;
+        margin: auto;
+    }
+}
+
+/*==================MEDIA QUARIES (SMALL DEVICES)  ======================*/
+@media screen and (max-width: 600PX) {
+    .olderProject__container {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        width: 30rem;
+    }
+
+    .olderProject__item {
+        /* background: var(--color-bg-variant);
+        padding: 1.3rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition); */
+        /* display: grid;
+        grid-template-columns: 1; */
+        display: flex;
+        flex-direction: column;
+        width:20rem;
+
+    }
+    .olderProject__item-image {
+        /* width: 15rem; */
+        border-radius: 1.5rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+}

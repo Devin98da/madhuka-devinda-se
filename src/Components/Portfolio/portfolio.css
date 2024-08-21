@@ -1,0 +1,68 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2.5rem;
+
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item-image image{
+    width: 10rem;
+    height: 10rem;
+    display: none;
+}
+
+.portfolio__item h3{
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem;
+    font-weight: 400;
+}
+
+.portfolio__item p{
+    margin: 1rem 0 1rem;
+    font-weight: 300;
+}
+
+.portfolio__item-cta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+/*==================MEDIA QUARIES (MEDIUM DEVICES)  ======================*/
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        grid-template-columns:  repeat(1,1fr);
+        gap: 1.2rem;
+    }
+}
+
+/*==================MEDIA QUARIES (SMALL DEVICES)  ======================*/
+@media screen and (max-width: 600PX){
+    .portfolio__container{
+        grid-template-columns:  repeat(1,1fr);
+        gap: 1rem;
+    }
+}

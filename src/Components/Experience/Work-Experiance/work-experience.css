@@ -1,0 +1,22 @@
+.work-experience {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 1rem;
+    justify-items: center; /* Align all items to the start (left) */
+    margin-bottom: 3rem;
+    
+    
+}
+
+.duration {
+    width: 60%;
+}
+
+.details ul, 
+.details ul li {
+    font-size: 0.9rem; 
+}
+
+.details {
+}
+

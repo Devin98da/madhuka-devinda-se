@@ -1,0 +1,14 @@
+.noProjectSection {
+    text-align: center;
+    background-color: red;
+}
+
+.noProjectMessage {
+    color: #555;
+    font-size: 1.5em;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10rem;
+}

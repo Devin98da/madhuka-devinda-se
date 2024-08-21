@@ -1,0 +1,50 @@
+.about_resume_container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.resume_content {
+    /* width: 60%; */
+    /* width: var(--container-wdith-lg); */
+    margin-top: 2rem;
+}
+
+.resume_content h2{
+    text-align: center;
+    /* width: 100%; */
+}
+
+.title {
+    margin: 2rem 0px 1rem 0px;
+
+    border-bottom: 1px dashed #1E1E1E;
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    color: #0b90ce;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.images img {
+    margin-top: 20px;
+    width: 80%;
+}
+
+/*==================MEDIA QUARIES (MEDIUM DEVICES)  ======================*/
+@media screen and (max-width: 1024px) {
+
+}
+
+/*==================MEDIA QUARIES (SMALL DEVICES)  ======================*/
+@media screen and (max-width: 600PX) {
+    .images {
+        width: 100%;
+    }
+}
