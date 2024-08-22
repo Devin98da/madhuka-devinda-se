@@ -13,7 +13,7 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-    <BrowserRouter basename="/devinda">
+    <BrowserRouter basename="/madhuka-devinda-se">
         <App />
     </BrowserRouter>
 )
