@@ -12,3 +12,243 @@
     margin: auto;
     margin-top: 10rem;
 }
+
+
+.personal__container {
+    /* float: left; */
+    width: 974px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--color-bg-highlight);
+    margin-top: 8rem;
+    
+}
+
+.title {
+    min-height: 100%;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed #1E1E1E;
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    color: #0b90ce;
+    font-size: 35px;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+
+}
+
+.project__image {
+    background-color: var(--color-bg-highlight);
+    /* height: 600px; */
+    /* max-width: 100%; */
+    height: auto;
+    width: 900px;
+    /* text-align: center; */
+}
+
+.image__container {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    /* background-color: red; */
+}
+
+.image__container img {
+    width: 100%; /* Make the image width 100% of the container */
+    height: auto; /* Allow the image height to adjust proportionally */
+    position: absolute; /* Position the image absolutely within its container */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    /* background-color: blue; */
+    margin-bottom: 1.2rem;
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    vertical-align: top;
+    /* width: 250px; */
+}
+
+td:first-child {
+    width: 30%;
+}
+
+td:nth-child(2) {
+    width: 70%;
+}
+
+td p {
+    margin-top: 0px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 100;
+    line-height: 25px;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+td ul {
+    margin-top: 0px;
+    line-height: 22px;
+    text-align: left;
+    font-size: 20px;
+    /* list-style-type: disc; */
+}
+
+.greenEntry {
+    padding-top: 10px;
+    color: #0b90ce;
+    font-size: 20px;
+
+}
+
+.entry {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+.detailBlockUl {
+    /* background-color: red; */
+    margin-top: 0.5rem;
+}
+
+
+ul {
+    padding-inline-start: 40px;
+}
+
+.info_content {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.open_project{
+    display: flex;
+    align-items: center;
+}
+
+.arrow{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #0b90ce;
+    font-size: 20px;
+}
+
+.projectScreenshot{
+    padding-bottom: 20px;
+    width: auto;
+    height: 10%;
+}
+
+.single_project_screenshot{
+    padding-bottom: 20px;
+}
+
+/*==================MEDIA QUARIES (MEDIUM DEVICES)  ======================*/
+@media screen and (max-width: 1024px) {
+    .personal__container {
+        /* grid-template-columns: 1fr;
+        gap: 0; */
+        width: 50%;
+    }
+
+    th,
+    td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    th,
+    td:nth-child(odd) {
+        border-bottom: 4px solid var(--color-primary-variant-drop);
+    }
+
+    iframe {
+        width: 600px;
+        height: 350px;
+        /* Adjust the height for smaller screens */
+    }
+    td:first-child {
+        width: 100%;
+    }
+    
+    td:nth-child(2) {
+        width: 100%;
+    }
+}
+
+/*==================MEDIA QUARIES (SMALL DEVICES)  ======================*/
+@media screen and (max-width: 600PX) {
+    .personal__container {
+        width: 65%;
+        /* margin: 0 auto 3rem; */
+        margin-top: 8rem;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+        /* Adjust the height for smaller screens */
+    }
+
+    .project__image {
+        /* background-color: green; */
+        /* height: 600px; */
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image__container {
+        width: 90%;
+        height: auto;
+        /* background-color: red; */
+    }
+
+    .image__container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
