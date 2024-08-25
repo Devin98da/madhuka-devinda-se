@@ -4,7 +4,7 @@ import React from 'react'
 const CTA = () => {
 
     const handleDownload = () => {
-      const pdfUrl = "https://devin98da.github.io/madhuka-devinda" + '/Madhuka-Devinda.pdf';
+      const pdfUrl = "https://devin98da.github.io/madhuka-devinda-se" + '/Madhuka-Devinda.pdf';
       window.open(pdfUrl, '_blank');
     };
 
