@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/devinda/static/css/main.bf324015.css",
+    "main.js": "/devinda/static/js/main.f8463359.js",
+    "static/media/page1.jpg": "/devinda/static/media/page1.3a0aa237570a3d3f1948.jpg",
+    "static/media/page2.jpg": "/devinda/static/media/page2.570afc333e9a9d55d2f5.jpg",
+    "static/media/me-about.jpg": "/devinda/static/media/me-about.a527472c78f8fbac368f.jpg",
+    "static/media/2.JPG": "/devinda/static/media/2.a314eb5614c2a33da0a3.JPG",
+    "static/media/BuilderBid.jpg": "/devinda/static/media/BuilderBid.b32cba17661473a53e43.jpg",
+    "static/media/ss1.jpg": "/devinda/static/media/ss1.4c66222d50629905079d.jpg",
+    "static/media/ss2.jpg": "/devinda/static/media/ss2.789ca5278388e0574139.jpg",
+    "static/media/IndoorNavigation.png": "/devinda/static/media/IndoorNavigation.ab2577b4a896f202b453.png",
+    "static/media/5.JPG": "/devinda/static/media/5.64c5f021c3e3ef576fe3.JPG",
+    "static/media/6.JPG": "/devinda/static/media/6.bf6cd4916115dc84cff3.JPG",
+    "static/media/IndoorNavigation3.png": "/devinda/static/media/IndoorNavigation3.38e7072ad6dfb994faa0.png",
+    "static/media/8.JPG": "/devinda/static/media/8.a00de5d15104b67aa8a5.JPG",
+    "static/media/1.JPG": "/devinda/static/media/1.e162abed378f056f11b7.JPG",
+    "static/media/3.JPG": "/devinda/static/media/3.fc8de26a6ab9bb4ccd48.JPG",
+    "static/media/4.JPG": "/devinda/static/media/4.b1aab90aa48586bbb8ba.JPG",
+    "static/media/7.JPG": "/devinda/static/media/7.5d546a440cb1b59b7752.JPG",
+    "static/media/9.JPG": "/devinda/static/media/9.4774a9f03ef132c4451d.JPG",
+    "static/media/IndoorNavigation2.png": "/devinda/static/media/IndoorNavigation2.559822bd14963458af99.png",
+    "index.html": "/devinda/index.html",
+    "main.bf324015.css.map": "/devinda/static/css/main.bf324015.css.map",
+    "main.f8463359.js.map": "/devinda/static/js/main.f8463359.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf324015.css",
+    "static/js/main.f8463359.js"
+  ]
+}
